@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+.carrierspage{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+.Carrier {
+    cursor: pointer;
+    display: block;
+    margin: 57px auto;
+    height: fit-content;
+    width: 600px;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    text-align: center;
+    border-style: double;
+    border-radius: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    opacity: 0.75;
+}
+.Carrier:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 768px){
+ .Carrier{
+     height: fit-content;
+     width: 80%;
+ }       
+}
+.Carrier > h1 {
+    color: bisque;
+    size: 50px;
+}
+.CarrierList {
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}

@@ -1,0 +1,6 @@
+.custom-select, select{
+    display: block;
+    background-color:DodgerBlue;
+    color:white;
+    width: max-content;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Sansita+Swashed:wght@300&display=swap');
+
+.header{
+    font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    max-width: 112px;
+    max-height: 69px;
+ 
+}
+html{
+    display: flex;
+    height: 100%;
+}
+body{
+    
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: auto;
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+}
+.homepage {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 200px){
+    .logo{
+    display: none;
+}
+}

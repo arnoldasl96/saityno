@@ -1,0 +1,23 @@
+
+.main {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img{
+    max-width: 323px;
+    max-height: 242px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    max-width: 323px;
+    max-height: 242px;
+}
+.not-found{
+    font-size: 100px;
+    color: rgb(179, 34, 34);
+}

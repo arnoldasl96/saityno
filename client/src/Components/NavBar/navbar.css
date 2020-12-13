@@ -1,0 +1,18 @@
+#navBg {
+    background-color: #120309 !important;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    min-height: 10vh;
+  }
+  #navLink {
+    font-size: 3.5vh;
+    padding-left: 3vw;
+  }
+  #navBrand {
+    font-size: 5vh;
+  }
+  #logo {
+    max-height: 6.4vh;
+  }
+  
